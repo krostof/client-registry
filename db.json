@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": "1", "email": "a title", "password": "qwer100", "username": "user1" },
+    { "id": "2", "email": "another title", "password": "qwer200","username": "user2"  }
+  ],
+  "clients": [
+    { "id": "1", "firstname": "test", "surname": "Testowy" ,
+      "email": "mail@gmail.com",
+      "phone": "112365478",
+      "address": "ul. Testowa 1",
+      "postalCode": "12-345"
+    }
+  ]
+}
