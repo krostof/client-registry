@@ -4,11 +4,9 @@ import { HeaderComponent } from './modules/core/components/header/header.compone
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent],
+  standalone: true, // AppComponent jest standalone
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  standalone: true,
+  styleUrls: ['./app.component.scss'],
+  imports: [RouterOutlet, HeaderComponent], // Importowanie HeaderComponent
 })
-export class AppComponent {
-  title = 'client-registry';
-}
+export class AppComponent {}
